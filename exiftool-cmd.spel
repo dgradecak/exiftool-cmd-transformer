@@ -1,0 +1,4 @@
+{
+	commandsAndArguments = {'*': {'exiftool', '${source}', 'SPLIT:${options}', '-args', '-G1', '-S', '-struct', '-j', '-W+!', '${target}'}},
+	errorCodes = '1,2,3'
+}

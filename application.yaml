@@ -1,0 +1,3 @@
+transformserver:
+  providers: 
+    exif: /workspace

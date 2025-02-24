@@ -1,0 +1,10 @@
+{
+  "transformers": [
+    {
+      "transformerName": "exiftool",
+      "supportedSourceAndTargetList": [
+        {"sourceMediaType": "application/pdf",  "targetMediaType": "alfresco-metadata-extract" }
+      ]
+    }
+  ]
+}
