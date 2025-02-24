@@ -1,5 +1,5 @@
 # Start with the existing base image
-FROM docker.pleosoft.com/pleosoft/cmd-transformer:1.0.0
+FROM pleosoft/cmd-transformer:1.0.0
 
 COPY engine_config.json /workspace/engine_config.json
 COPY exiftool-cmd.spel /workspace/exiftool-cmd.spel
